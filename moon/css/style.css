@@ -1,0 +1,33 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 64px;
+    height: 64px;
+}
+
+nav a{
+    color: blueviolet;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: aqua;
+    text-align: center;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
